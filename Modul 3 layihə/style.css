@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#status {
+    margin-left: 440px;
+    margin-top: 40px;
+    padding-left: 6px;
+    background-color: red;
+    width: 100px;
+
+}
+
+.header {
+    background-color: #F5F5F6;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-bottom: 56px;
+}
+
+
+
+
+li {
+    display: flex;
+    margin-left: 30px;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #959BA4;
+
+   
+}
+
+ul {
+    display: flex;
+  
+}
+
+img {
+    width: 89px;
+    height: 23px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+h3 {
+    border: 1px solid black;
+    width: 80px;
+    height: 25px;
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding-left: 19px;
+    padding-top: 5px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 32px;
+    font-size: 36px;
+
+}
+
+
+.up-side1 {
+    display: flex;
+    width: 120px;
+    height: 28px;
+    color: #9F9F9F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 33px;
+}
+
+button {
+    width: 59px;
+    height: 28px;
+    flex-direction: column;
+    color: #C6C6C6;
+    background-color: white;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px 11px;
+    margin-right: -5px;
+    border: 1px solid grey;
+   
+}
+
+.left-side {
+    margin-top: 2px;
+    margin-right: 125px;
+    margin-top: 3px ;
+    margin-left : 241px;
+
+}
+
+.right1 {
+    display: flex;
+    width: 120px;
+    height: 28px;
+    color: #9F9F9F;
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 0px;
+    margin-top: 33px;
+    
+}
+
+.right {
+    margin: 2px 538px 21px 0px;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 220px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: large;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    
+}
+
+.active {
+    background-color: blueviolet;
+}
+
+.input-box {
+    margin-top: 18px;
+    width: 230px;
+    height: 105px;
+    border: 1px solid grey;
+  
+}
+
+#left-span {
+    color: grey;
+    margin-left: 5px;
+}
+
+#right-span {
+    color: grey;
+    margin-left: 5px;
+}
+ 

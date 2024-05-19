@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="./images/Asset 1@3x 1.svg" alt="bank-logo">
+        <ul>
+            <li style="color: black;">
+                <b>БАНК</b>
+            </li>
+            <li>БИЗНЕС</li>
+            <li>ИНВЕСТИЦИИ</li>
+            <li>СТРАХОВАНИЕ</li>
+            <li>МОБАЙЛ</li>
+            <li>ПУТЕШЕСТВИЯ</li>
+            <li>РАЗВЛЕЧЕНИЯ</li>
+        </ul>
+
+        <h3>ВОЙТИ</h3>
+        </header>
+    </div>
+    <h4>Конвертер валют онлайн</h4>
+    <div class="main-container">
+        <div class="left-side">
+            <p class="up-side1">У меня есть </p>
+            <div class="left-side-btns">
+                <button class="active lbtn">RUB</button>
+                <button class="lbtn">USD</button>
+                <button class="lbtn">EUR</button>
+                <button class="lbtn">GBP</button>
+            </div>
+            <div class="input-box">
+                <input type="text">
+                <p id="left-span"><span></span></p>
+            </div>
+        </div>
+        <div class="right">
+            <p class="right1">Хочу приобрести</p>
+            <div class="right-side-btns">
+                <button class="rbtn">RUB</button>
+                <button class="active rbtn">USD</button>
+                <button class="rbtn">EUR</button>
+                <button class="rbtn">GBP</button>
+            </div>
+            <div class="input-box">
+                <input type="text">
+                <p id="right-span"><span></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="status"></div>
+    <script>
+        window.addEventListener("offline", function () {
+
+            document.getElementById("status").innerHTML = "Ты не в сети";
+        });
+        window.addEventListener("online", function () {
+            document.getElementById("status").innerHTML = "";
+
+        });
+    </script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
